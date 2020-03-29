@@ -1,24 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuViewController" id="BYZ-38-t0r" customClass="MenuViewController" customModule="CashMachineMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cash Machine Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HD-LG-qrn">
+                                <rect key="frame" x="32" y="87" width="350.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Gdy-B3-q6W">
+                                <rect key="frame" x="20" y="413" width="374" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnh-lm-xw4">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="30"/>
+                                        <state key="normal" title="Enter product information"/>
+                                        <connections>
+                                            <action selector="someButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FoB-zI-mAa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEh-UW-9Fs">
+                                        <rect key="frame" x="0.0" y="40" width="374" height="30"/>
+                                        <state key="normal" title="Make a scan of product"/>
+                                        <connections>
+                                            <action selector="someButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XCZ-R3-Dq1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gdy-B3-q6W" secondAttribute="trailing" id="8e2-pK-W1B"/>
+                            <constraint firstItem="Gdy-B3-q6W" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FtT-8s-8uH"/>
+                            <constraint firstItem="Gdy-B3-q6W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ICL-sF-9aF"/>
+                            <constraint firstItem="Gdy-B3-q6W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XJO-jH-aPF"/>
+                            <constraint firstItem="9HD-LG-qrn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="boE-mr-LJ5"/>
+                            <constraint firstItem="9HD-LG-qrn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="xNo-3Y-o1m"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="130"/>
+        </scene>
+        <!--Uploaded Product Info View Controller-->
+        <scene sceneID="gWh-CZ-xFq">
+            <objects>
+                <viewController storyboardIdentifier="UploadedProductInfoViewController" id="2em-eg-qoR" customClass="UploadedProductInfoViewController" customModule="CashMachineMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IcR-et-exD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Information uploaded successfully!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Am4-OR-VEh">
+                                <rect key="frame" x="73.5" y="437.5" width="267" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eom-cY-FB4">
+                                <rect key="frame" x="87" y="579" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="eph-rC-byv"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Am4-OR-VEh" firstAttribute="centerX" secondItem="IcR-et-exD" secondAttribute="centerX" id="6vw-Fk-s2V"/>
+                            <constraint firstItem="Am4-OR-VEh" firstAttribute="centerY" secondItem="IcR-et-exD" secondAttribute="centerY" id="NsL-Xx-4yB"/>
+                            <constraint firstItem="eom-cY-FB4" firstAttribute="leading" secondItem="nlE-ef-kz5" secondAttribute="leading" constant="87" id="c0L-8f-Npb"/>
+                            <constraint firstItem="nlE-ef-kz5" firstAttribute="bottom" secondItem="eom-cY-FB4" secondAttribute="bottom" constant="155" id="e6k-bO-dRf"/>
+                            <constraint firstItem="eom-cY-FB4" firstAttribute="centerX" secondItem="nlE-ef-kz5" secondAttribute="centerX" id="kaA-Ez-bpQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nlE-ef-kz5"/>
+                    </view>
+                    <connections>
+                        <outlet property="infoTextView" destination="eom-cY-FB4" id="66g-Xs-a07"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OuT-ea-Far" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1178" y="-167"/>
         </scene>
     </scenes>
 </document>

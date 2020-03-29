@@ -1,0 +1,24 @@
+PODS:
+  - MTBBarcodeScanner (5.0.11)
+  - StorageSystems (0.1.0):
+    - MTBBarcodeScanner
+
+DEPENDENCIES:
+  - MTBBarcodeScanner
+  - StorageSystems (from `./Modules/StorageSystems`)
+
+SPEC REPOS:
+  trunk:
+    - MTBBarcodeScanner
+
+EXTERNAL SOURCES:
+  StorageSystems:
+    :path: "./Modules/StorageSystems"
+
+SPEC CHECKSUMS:
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  StorageSystems: 0362345c64895465e53411f84f9c0a54491fe9d2
+
+PODFILE CHECKSUM: c9c88b34e9850553ee25a40a453e3052af5161ae
+
+COCOAPODS: 1.8.4

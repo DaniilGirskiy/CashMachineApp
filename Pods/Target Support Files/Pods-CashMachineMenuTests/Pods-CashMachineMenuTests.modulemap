@@ -1,0 +1,6 @@
+framework module Pods_CashMachineMenuTests {
+  umbrella header "Pods-CashMachineMenuTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

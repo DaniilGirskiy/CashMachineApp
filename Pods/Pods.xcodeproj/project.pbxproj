@@ -1,0 +1,1132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015661008F605DDE42831A8E453DA1CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A732B9A447A20D55E50A784E1D7C3DD1 /* Main.storyboard */; };
+		098F17C3F4BE25A8C2CA3D122A80797F /* MTBBarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50606C5E9C2BEE3A681D7DF31B20B871 /* MTBBarcodeScanner-dummy.m */; };
+		0DED8B2DB7F67DCF758D142A637B12E1 /* MTBBarcodeScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C11AB5AB257041D0A0BA223064DEA8 /* MTBBarcodeScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		193E9AA134922CD460496A5502FE1E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F74C0CE99D214EB668C07308883B4D3 /* LaunchScreen.storyboard */; };
+		249F024CF5B9F27C270DAA8CE158D6CA /* ProductInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7CB7BDE9A26C1E093127666CD02746 /* ProductInformation.swift */; };
+		2BA18694363CA5AFB7F0EF6123A67D8B /* ProductTaxTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6F8DECD054D56F635CB52764963B3 /* ProductTaxTypeController.swift */; };
+		3594625502C5C4E0FA22BE6AC8AF557A /* IdentityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F52F01F59349BE73ECA8168E836F1 /* IdentityService.swift */; };
+		36AB069078C71F222E6DACE4CCB03E95 /* ProductPriceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A95D867CB69E314DE708DCBF2164365 /* ProductPriceController.swift */; };
+		3ADC49D8CFBEA88088026D520B8502A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
+		42CC59FEA999AB72BF4B9076EA448B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
+		43832C2CA959073A133EC391C65D5F8B /* ProductTitleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529518055EEAF7233C87636E82CC2F5 /* ProductTitleController.swift */; };
+		5039CC6A4E21E2244850E3DA2EBA2849 /* ScanFinishController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12D050D3E401F959E6C8214E2FC18B4 /* ScanFinishController.swift */; };
+		6098E72E7756EEF9B2D37524BBEFCA93 /* ProductBarcodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103CDB9CE673252C27EA996E918DB1F /* ProductBarcodeController.swift */; };
+		749713525F11F4A75595780BFFE9AB7E /* MTBBarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6513E3AD72D0723AFCFFF716560927 /* MTBBarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8795B4C32390C798F6AA11B498F1A7D1 /* Pods-CashMachineMenuTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DD6C2EB26A803B06630E493BFA5C38 /* Pods-CashMachineMenuTests-dummy.m */; };
+		9176BE4BA926408CFB09FBA2ECC8CE2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
+		93CBB0E16DB120A86730EE0F0B5C5E62 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380D50F28E4C1F8B519D1CD471802157 /* AVFoundation.framework */; };
+		95263F0BBA8792B6B215D6E3FCFAC596 /* Pods-CashMachineMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EAA417066FE4A6FF71F97FBC48F627E /* Pods-CashMachineMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B8C96AFCDCEC8D50AA4167F8E2CA77 /* ProductInfoFinishController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73F956148DA7F0266C455FB923D7D0E /* ProductInfoFinishController.swift */; };
+		AF5DA9F98CDC0F23AB82E392268B4401 /* Pods-CashMachineMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4292C05462E60C8911BD0ED40BC98A6 /* Pods-CashMachineMenu-dummy.m */; };
+		B651528CF7AD623BB4B43D226CDDF280 /* MTBBarcodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D8C456A51E3442CB5907B5DBDEA4CB /* MTBBarcodeScanner.m */; };
+		B688F66D55DC8571665F82E44985CA6B /* StorageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FC8306285D4F26CF304A0D3E137C50 /* StorageCoordinator.swift */; };
+		BD07CB28306C38B227C4A476C7D283F2 /* ScanStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA799C8FB63CD04F2D9A563ABF57F6F2 /* ScanStartController.swift */; };
+		BF8D684D9C31668A9D8731DF8829E731 /* StorageSystems-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8EA8BD522849BFB49D5997F59AA208 /* StorageSystems-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1DA0652F1AA9B58F2BD77E62A1C182F /* Pods-CashMachineMenuTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7066AA132FCFF3B738F0A474EAC681B4 /* Pods-CashMachineMenuTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB848DA1B046FCDC725BF13CD023081A /* MTBBarcodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8BB1D50D0BE2122A956A5779CAF37A /* MTBBarcodeScanner.framework */; };
+		D9846DE6AF8FD25A7B00D3D1E96652AC /* StorageSystems-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 797424BD3AA97EA931CE1B2AF0FC7C4D /* StorageSystems-dummy.m */; };
+		DB8A21E4F6AF30FCB92A97F7D028F3FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0957685B0E749704E4B394F0C2EAC062 /* QuartzCore.framework */; };
+		E50E173DBF8D93A7FB7352BB05825D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CCA0FEA0262F8792562589E39E07FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46831EEC6CF4C4345A0A817F18E1420B;
+			remoteInfo = StorageSystems;
+		};
+		43BE77C901F241395EF6636080647D57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83CD42EA57F97A225D24BDC7BD6B6F6;
+			remoteInfo = MTBBarcodeScanner;
+		};
+		7F1C3072D4140339F6F5B8ACF6F15BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FED2A6E9893414F3F4B3C9E54C289E;
+			remoteInfo = "Pods-CashMachineMenu";
+		};
+		F87E5BADDE93D2D8A50738D0168222EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D83CD42EA57F97A225D24BDC7BD6B6F6;
+			remoteInfo = MTBBarcodeScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052D168C1EE96AFE950F03743774179D /* StorageSystems.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StorageSystems.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0957685B0E749704E4B394F0C2EAC062 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		190769780D7A18CCB3CC628C238C7408 /* MTBBarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBBarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		20BB1A2B4DFCF999B5DF8529CC9A4F85 /* StorageSystems-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StorageSystems-prefix.pch"; sourceTree = "<group>"; };
+		25193A43B15EFD068829D2949248EBD7 /* Pods-CashMachineMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashMachineMenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		29866CF57D5FC29BE61272241669159D /* Pods-CashMachineMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashMachineMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		2AD35495F0539645B05298768B095719 /* MTBBarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTBBarcodeScanner.framework; path = MTBBarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAA417066FE4A6FF71F97FBC48F627E /* Pods-CashMachineMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CashMachineMenu-umbrella.h"; sourceTree = "<group>"; };
+		2EE13FB2305B8D694B9E036401DF635A /* Pods_CashMachineMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CashMachineMenu.framework; path = "Pods-CashMachineMenu.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3101751A3541947730F3E21D079104DA /* MTBBarcodeScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTBBarcodeScanner.xcconfig; sourceTree = "<group>"; };
+		380D50F28E4C1F8B519D1CD471802157 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		40C11AB5AB257041D0A0BA223064DEA8 /* MTBBarcodeScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTBBarcodeScanner.h; path = Classes/ios/Scanners/MTBBarcodeScanner.h; sourceTree = "<group>"; };
+		433D2D9EED0A34D9EC68042EC4A8F907 /* Pods_CashMachineMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CashMachineMenuTests.framework; path = "Pods-CashMachineMenuTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7CB7BDE9A26C1E093127666CD02746 /* ProductInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductInformation.swift; sourceTree = "<group>"; };
+		50606C5E9C2BEE3A681D7DF31B20B871 /* MTBBarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTBBarcodeScanner-dummy.m"; sourceTree = "<group>"; };
+		55C6852C464303B165A3CC60062247C5 /* Pods-CashMachineMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CashMachineMenu.modulemap"; sourceTree = "<group>"; };
+		5763448C7B2580ADB0A731209079CEE0 /* Pods-CashMachineMenuTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashMachineMenuTests-Info.plist"; sourceTree = "<group>"; };
+		59B6F8DECD054D56F635CB52764963B3 /* ProductTaxTypeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductTaxTypeController.swift; sourceTree = "<group>"; };
+		59E336CB0ED0CFD487681C6CE059F7AF /* Pods-CashMachineMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashMachineMenu.release.xcconfig"; sourceTree = "<group>"; };
+		5E15AF6B28DA5E92007A09C0E18080D5 /* StorageSystems.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StorageSystems.modulemap; sourceTree = "<group>"; };
+		5F74C0CE99D214EB668C07308883B4D3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = StorageSystems/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		612AF055ADDD3E66CD6D72C25A0CBE78 /* StorageSystems.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StorageSystems.xcconfig; sourceTree = "<group>"; };
+		7066AA132FCFF3B738F0A474EAC681B4 /* Pods-CashMachineMenuTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CashMachineMenuTests-umbrella.h"; sourceTree = "<group>"; };
+		797424BD3AA97EA931CE1B2AF0FC7C4D /* StorageSystems-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StorageSystems-dummy.m"; sourceTree = "<group>"; };
+		7A95D867CB69E314DE708DCBF2164365 /* ProductPriceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductPriceController.swift; sourceTree = "<group>"; };
+		7E437B5EB8EDB8DEA7013786090036D1 /* Pods-CashMachineMenuTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashMachineMenuTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85FC8306285D4F26CF304A0D3E137C50 /* StorageCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StorageCoordinator.swift; sourceTree = "<group>"; };
+		8C6513E3AD72D0723AFCFFF716560927 /* MTBBarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTBBarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		8C8BB1D50D0BE2122A956A5779CAF37A /* MTBBarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTBBarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		949F86EB16B5DEA2621D410848C84281 /* StorageSystems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StorageSystems.framework; path = StorageSystems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9C9D76B8B40ED6D83028074583AA2903 /* Pods-CashMachineMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CashMachineMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A41E2BCF542DDE8C63346429C3EC24E9 /* Pods-CashMachineMenu-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CashMachineMenu-frameworks.sh"; sourceTree = "<group>"; };
+		A732B9A447A20D55E50A784E1D7C3DD1 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = StorageSystems/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B73F956148DA7F0266C455FB923D7D0E /* ProductInfoFinishController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductInfoFinishController.swift; sourceTree = "<group>"; };
+		BAF1853BCCE05FADC145F078B54A09C8 /* MTBBarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTBBarcodeScanner.modulemap; sourceTree = "<group>"; };
+		BE6F38784CB65649D0C7BA8FB56D80A9 /* Pods-CashMachineMenuTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CashMachineMenuTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C103CDB9CE673252C27EA996E918DB1F /* ProductBarcodeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductBarcodeController.swift; sourceTree = "<group>"; };
+		C167449B8F32893AF57460D94D0E0FD0 /* Pods-CashMachineMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashMachineMenu-Info.plist"; sourceTree = "<group>"; };
+		C16F52F01F59349BE73ECA8168E836F1 /* IdentityService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IdentityService.swift; sourceTree = "<group>"; };
+		C539FB2B3204B10D38930E5C6E23538F /* Pods-CashMachineMenuTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CashMachineMenuTests.modulemap"; sourceTree = "<group>"; };
+		C5D8C456A51E3442CB5907B5DBDEA4CB /* MTBBarcodeScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTBBarcodeScanner.m; path = Classes/ios/Scanners/MTBBarcodeScanner.m; sourceTree = "<group>"; };
+		C7C9F88174AB41AABC80C528DD4135AB /* Pods-CashMachineMenu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CashMachineMenu-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA55DB82251EA6FC42CB09D2AC9282D3 /* MTBBarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTBBarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		D4292C05462E60C8911BD0ED40BC98A6 /* Pods-CashMachineMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CashMachineMenu-dummy.m"; sourceTree = "<group>"; };
+		D5CCB4852340D92617CD660363F75F40 /* StorageSystems-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StorageSystems-Info.plist"; sourceTree = "<group>"; };
+		DF8EA8BD522849BFB49D5997F59AA208 /* StorageSystems-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StorageSystems-umbrella.h"; sourceTree = "<group>"; };
+		E3DD6C2EB26A803B06630E493BFA5C38 /* Pods-CashMachineMenuTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CashMachineMenuTests-dummy.m"; sourceTree = "<group>"; };
+		E529518055EEAF7233C87636E82CC2F5 /* ProductTitleController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProductTitleController.swift; sourceTree = "<group>"; };
+		EA799C8FB63CD04F2D9A563ABF57F6F2 /* ScanStartController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanStartController.swift; sourceTree = "<group>"; };
+		EFC77AC001A9836B19BD8C3BEFECF788 /* Pods-CashMachineMenu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CashMachineMenu-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F12D050D3E401F959E6C8214E2FC18B4 /* ScanFinishController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScanFinishController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06516A5AE902D11B4C4D47C1376857CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50E173DBF8D93A7FB7352BB05825D24 /* Foundation.framework in Frameworks */,
+				CB848DA1B046FCDC725BF13CD023081A /* MTBBarcodeScanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B07B01B39F2E0D9538FC83B505F5678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9176BE4BA926408CFB09FBA2ECC8CE2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68033B19E59C546CB6AF4F7F975806E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CBB0E16DB120A86730EE0F0B5C5E62 /* AVFoundation.framework in Frameworks */,
+				3ADC49D8CFBEA88088026D520B8502A8 /* Foundation.framework in Frameworks */,
+				DB8A21E4F6AF30FCB92A97F7D028F3FD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98CBCD2966F900693ED61C5EA80FE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CC59FEA999AB72BF4B9076EA448B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027472D274E01EF9EC6E123E61DF863E /* Pods-CashMachineMenu */ = {
+			isa = PBXGroup;
+			children = (
+				55C6852C464303B165A3CC60062247C5 /* Pods-CashMachineMenu.modulemap */,
+				EFC77AC001A9836B19BD8C3BEFECF788 /* Pods-CashMachineMenu-acknowledgements.markdown */,
+				C7C9F88174AB41AABC80C528DD4135AB /* Pods-CashMachineMenu-acknowledgements.plist */,
+				D4292C05462E60C8911BD0ED40BC98A6 /* Pods-CashMachineMenu-dummy.m */,
+				A41E2BCF542DDE8C63346429C3EC24E9 /* Pods-CashMachineMenu-frameworks.sh */,
+				C167449B8F32893AF57460D94D0E0FD0 /* Pods-CashMachineMenu-Info.plist */,
+				2EAA417066FE4A6FF71F97FBC48F627E /* Pods-CashMachineMenu-umbrella.h */,
+				29866CF57D5FC29BE61272241669159D /* Pods-CashMachineMenu.debug.xcconfig */,
+				59E336CB0ED0CFD487681C6CE059F7AF /* Pods-CashMachineMenu.release.xcconfig */,
+			);
+			name = "Pods-CashMachineMenu";
+			path = "Target Support Files/Pods-CashMachineMenu";
+			sourceTree = "<group>";
+		};
+		09D6250A1E88AF87ADA7E0A1B27A4F03 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4F7CB7BDE9A26C1E093127666CD02746 /* ProductInformation.swift */,
+			);
+			name = Entities;
+			path = StorageSystems/Storage/Entities;
+			sourceTree = "<group>";
+		};
+		0F9115D614A5723E06221A1C67717AC9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				380D50F28E4C1F8B519D1CD471802157 /* AVFoundation.framework */,
+				9A0FE4792697FC4DAB0F763545BE0D5C /* Foundation.framework */,
+				0957685B0E749704E4B394F0C2EAC062 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		125FDA078DDE14D74AB7EDBA224DE540 /* Pods-CashMachineMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				C539FB2B3204B10D38930E5C6E23538F /* Pods-CashMachineMenuTests.modulemap */,
+				BE6F38784CB65649D0C7BA8FB56D80A9 /* Pods-CashMachineMenuTests-acknowledgements.markdown */,
+				7E437B5EB8EDB8DEA7013786090036D1 /* Pods-CashMachineMenuTests-acknowledgements.plist */,
+				E3DD6C2EB26A803B06630E493BFA5C38 /* Pods-CashMachineMenuTests-dummy.m */,
+				5763448C7B2580ADB0A731209079CEE0 /* Pods-CashMachineMenuTests-Info.plist */,
+				7066AA132FCFF3B738F0A474EAC681B4 /* Pods-CashMachineMenuTests-umbrella.h */,
+				9C9D76B8B40ED6D83028074583AA2903 /* Pods-CashMachineMenuTests.debug.xcconfig */,
+				25193A43B15EFD068829D2949248EBD7 /* Pods-CashMachineMenuTests.release.xcconfig */,
+			);
+			name = "Pods-CashMachineMenuTests";
+			path = "Target Support Files/Pods-CashMachineMenuTests";
+			sourceTree = "<group>";
+		};
+		306122A29EBDBBE738E02EA26251B02C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F74C0CE99D214EB668C07308883B4D3 /* LaunchScreen.storyboard */,
+				A732B9A447A20D55E50A784E1D7C3DD1 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3BA4678136D202A6E2D246257484C052 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C431A2FA5980B44B10FC58D17ACEA291 /* Product Information */,
+				83FC68D3F994732C30BB5D170A9AAE41 /* Result */,
+				E75D74764E3F600226BA77FA86DC7896 /* Scan */,
+			);
+			name = Presentation;
+			path = StorageSystems/Storage/Presentation;
+			sourceTree = "<group>";
+		};
+		4F18645B56213D5FFB52A37B953ADB71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF1853BCCE05FADC145F078B54A09C8 /* MTBBarcodeScanner.modulemap */,
+				3101751A3541947730F3E21D079104DA /* MTBBarcodeScanner.xcconfig */,
+				50606C5E9C2BEE3A681D7DF31B20B871 /* MTBBarcodeScanner-dummy.m */,
+				CA55DB82251EA6FC42CB09D2AC9282D3 /* MTBBarcodeScanner-Info.plist */,
+				190769780D7A18CCB3CC628C238C7408 /* MTBBarcodeScanner-prefix.pch */,
+				8C6513E3AD72D0723AFCFFF716560927 /* MTBBarcodeScanner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MTBBarcodeScanner";
+			sourceTree = "<group>";
+		};
+		503C3A26AEA9F0DBDD15379D2DADF295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD35495F0539645B05298768B095719 /* MTBBarcodeScanner.framework */,
+				2EE13FB2305B8D694B9E036401DF635A /* Pods_CashMachineMenu.framework */,
+				433D2D9EED0A34D9EC68042EC4A8F907 /* Pods_CashMachineMenuTests.framework */,
+				949F86EB16B5DEA2621D410848C84281 /* StorageSystems.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F28B501500333E5E766C4D199DED2EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E15AF6B28DA5E92007A09C0E18080D5 /* StorageSystems.modulemap */,
+				612AF055ADDD3E66CD6D72C25A0CBE78 /* StorageSystems.xcconfig */,
+				797424BD3AA97EA931CE1B2AF0FC7C4D /* StorageSystems-dummy.m */,
+				D5CCB4852340D92617CD660363F75F40 /* StorageSystems-Info.plist */,
+				20BB1A2B4DFCF999B5DF8529CC9A4F85 /* StorageSystems-prefix.pch */,
+				DF8EA8BD522849BFB49D5997F59AA208 /* StorageSystems-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/StorageSystems";
+			sourceTree = "<group>";
+		};
+		70ACBF38D3C10BEDA4A35A17DA56DE5A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				85FC8306285D4F26CF304A0D3E137C50 /* StorageCoordinator.swift */,
+			);
+			name = Coordinator;
+			path = StorageSystems/Storage/Coordinator;
+			sourceTree = "<group>";
+		};
+		7C8F641EEAAFE929F7254545DCB02126 /* StorageSystems */ = {
+			isa = PBXGroup;
+			children = (
+				70ACBF38D3C10BEDA4A35A17DA56DE5A /* Coordinator */,
+				09D6250A1E88AF87ADA7E0A1B27A4F03 /* Entities */,
+				B35B098036B73DC7DFB2BA4CE3F006E6 /* Pod */,
+				3BA4678136D202A6E2D246257484C052 /* Presentation */,
+				306122A29EBDBBE738E02EA26251B02C /* Resources */,
+				B9BF09699FC02A17C7E7A5F0E8EEFE20 /* Services */,
+				6F28B501500333E5E766C4D199DED2EF /* Support Files */,
+			);
+			name = StorageSystems;
+			path = ../Modules/StorageSystems;
+			sourceTree = "<group>";
+		};
+		83FC68D3F994732C30BB5D170A9AAE41 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B73F956148DA7F0266C455FB923D7D0E /* ProductInfoFinishController.swift */,
+				F12D050D3E401F959E6C8214E2FC18B4 /* ScanFinishController.swift */,
+			);
+			name = Result;
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B35B098036B73DC7DFB2BA4CE3F006E6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				052D168C1EE96AFE950F03743774179D /* StorageSystems.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B9BF09699FC02A17C7E7A5F0E8EEFE20 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C16F52F01F59349BE73ECA8168E836F1 /* IdentityService.swift */,
+			);
+			name = Services;
+			path = StorageSystems/Storage/Services;
+			sourceTree = "<group>";
+		};
+		C431A2FA5980B44B10FC58D17ACEA291 /* Product Information */ = {
+			isa = PBXGroup;
+			children = (
+				C103CDB9CE673252C27EA996E918DB1F /* ProductBarcodeController.swift */,
+				7A95D867CB69E314DE708DCBF2164365 /* ProductPriceController.swift */,
+				59B6F8DECD054D56F635CB52764963B3 /* ProductTaxTypeController.swift */,
+				E529518055EEAF7233C87636E82CC2F5 /* ProductTitleController.swift */,
+			);
+			name = "Product Information";
+			path = "Product Information";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F5781F3EA9D74327634CB7C9F8077CA1 /* Development Pods */,
+				FDC9E5F7C5D1C603D31E446BAA057905 /* Frameworks */,
+				E114EBD91E697317058312CA355665C8 /* Pods */,
+				503C3A26AEA9F0DBDD15379D2DADF295 /* Products */,
+				F8AC8E60BA6EA5942048F34385786125 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E114EBD91E697317058312CA355665C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEFF6CCF1ECEB35F52CC927962914177 /* MTBBarcodeScanner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E75D74764E3F600226BA77FA86DC7896 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				EA799C8FB63CD04F2D9A563ABF57F6F2 /* ScanStartController.swift */,
+			);
+			name = Scan;
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		EEFF6CCF1ECEB35F52CC927962914177 /* MTBBarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				40C11AB5AB257041D0A0BA223064DEA8 /* MTBBarcodeScanner.h */,
+				C5D8C456A51E3442CB5907B5DBDEA4CB /* MTBBarcodeScanner.m */,
+				4F18645B56213D5FFB52A37B953ADB71 /* Support Files */,
+			);
+			name = MTBBarcodeScanner;
+			path = MTBBarcodeScanner;
+			sourceTree = "<group>";
+		};
+		F5781F3EA9D74327634CB7C9F8077CA1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C8F641EEAAFE929F7254545DCB02126 /* StorageSystems */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F8AC8E60BA6EA5942048F34385786125 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				027472D274E01EF9EC6E123E61DF863E /* Pods-CashMachineMenu */,
+				125FDA078DDE14D74AB7EDBA224DE540 /* Pods-CashMachineMenuTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FDC9E5F7C5D1C603D31E446BAA057905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8BB1D50D0BE2122A956A5779CAF37A /* MTBBarcodeScanner.framework */,
+				0F9115D614A5723E06221A1C67717AC9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23D9C88F3BAE7A0D5ED2C07E01EAD617 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749713525F11F4A75595780BFFE9AB7E /* MTBBarcodeScanner-umbrella.h in Headers */,
+				0DED8B2DB7F67DCF758D142A637B12E1 /* MTBBarcodeScanner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66583075CA4A8CB83C8A7412AAE2DF2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95263F0BBA8792B6B215D6E3FCFAC596 /* Pods-CashMachineMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE589C080532E72FC032E9D686F970E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8D684D9C31668A9D8731DF8829E731 /* StorageSystems-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3F6D11F6094B49949CB8B73BEBDB58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DA0652F1AA9B58F2BD77E62A1C182F /* Pods-CashMachineMenuTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46831EEC6CF4C4345A0A817F18E1420B /* StorageSystems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D1F5C07D3435A281FF30E82C29FAA4 /* Build configuration list for PBXNativeTarget "StorageSystems" */;
+			buildPhases = (
+				DE589C080532E72FC032E9D686F970E2 /* Headers */,
+				E30478A39EC852703998D4FEDAC216E8 /* Sources */,
+				06516A5AE902D11B4C4D47C1376857CA /* Frameworks */,
+				B3C9F0D76669BFAA7BC6799FE839E53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7863D317382ADEE8CA972C62A0C06981 /* PBXTargetDependency */,
+			);
+			name = StorageSystems;
+			productName = StorageSystems;
+			productReference = 949F86EB16B5DEA2621D410848C84281 /* StorageSystems.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54FED2A6E9893414F3F4B3C9E54C289E /* Pods-CashMachineMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3309A5CF9EE9892FE9E87CEF9DBF34D3 /* Build configuration list for PBXNativeTarget "Pods-CashMachineMenu" */;
+			buildPhases = (
+				66583075CA4A8CB83C8A7412AAE2DF2F /* Headers */,
+				606E511CC996B1582B0FB6313F0F19E9 /* Sources */,
+				1B07B01B39F2E0D9538FC83B505F5678 /* Frameworks */,
+				CCE9E7AA503886CBFB4A0175C30BC835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9E04010E2CFB0173C6CAC71C5A0C8A /* PBXTargetDependency */,
+				F057A6C6AC811597B92FF841F435CDF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-CashMachineMenu";
+			productName = "Pods-CashMachineMenu";
+			productReference = 2EE13FB2305B8D694B9E036401DF635A /* Pods_CashMachineMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7F87C37134A900125E815278CAB848 /* Build configuration list for PBXNativeTarget "MTBBarcodeScanner" */;
+			buildPhases = (
+				23D9C88F3BAE7A0D5ED2C07E01EAD617 /* Headers */,
+				E7453EAFE4EB014B7F27D4231E7E0ECF /* Sources */,
+				68033B19E59C546CB6AF4F7F975806E2 /* Frameworks */,
+				A2FC265BC194EFB4E1887EE770D77AE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTBBarcodeScanner;
+			productName = MTBBarcodeScanner;
+			productReference = 2AD35495F0539645B05298768B095719 /* MTBBarcodeScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA487B489AC946EFD6AEC128E2D2E362 /* Pods-CashMachineMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C539EC65ACF6A18D7329C67BA42BBA87 /* Build configuration list for PBXNativeTarget "Pods-CashMachineMenuTests" */;
+			buildPhases = (
+				EF3F6D11F6094B49949CB8B73BEBDB58 /* Headers */,
+				7FEB2455B14A0B012329874B28A1EAA4 /* Sources */,
+				D98CBCD2966F900693ED61C5EA80FE29 /* Frameworks */,
+				92BFD0A0C3C3601DDE888F03BFBED866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040846E272AE0C6EF651306D403F8714 /* PBXTargetDependency */,
+			);
+			name = "Pods-CashMachineMenuTests";
+			productName = "Pods-CashMachineMenuTests";
+			productReference = 433D2D9EED0A34D9EC68042EC4A8F907 /* Pods_CashMachineMenuTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 503C3A26AEA9F0DBDD15379D2DADF295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */,
+				54FED2A6E9893414F3F4B3C9E54C289E /* Pods-CashMachineMenu */,
+				DA487B489AC946EFD6AEC128E2D2E362 /* Pods-CashMachineMenuTests */,
+				46831EEC6CF4C4345A0A817F18E1420B /* StorageSystems */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92BFD0A0C3C3601DDE888F03BFBED866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FC265BC194EFB4E1887EE770D77AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C9F0D76669BFAA7BC6799FE839E53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193E9AA134922CD460496A5502FE1E98 /* LaunchScreen.storyboard in Resources */,
+				015661008F605DDE42831A8E453DA1CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE9E7AA503886CBFB4A0175C30BC835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606E511CC996B1582B0FB6313F0F19E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5DA9F98CDC0F23AB82E392268B4401 /* Pods-CashMachineMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEB2455B14A0B012329874B28A1EAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8795B4C32390C798F6AA11B498F1A7D1 /* Pods-CashMachineMenuTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30478A39EC852703998D4FEDAC216E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3594625502C5C4E0FA22BE6AC8AF557A /* IdentityService.swift in Sources */,
+				6098E72E7756EEF9B2D37524BBEFCA93 /* ProductBarcodeController.swift in Sources */,
+				95B8C96AFCDCEC8D50AA4167F8E2CA77 /* ProductInfoFinishController.swift in Sources */,
+				249F024CF5B9F27C270DAA8CE158D6CA /* ProductInformation.swift in Sources */,
+				36AB069078C71F222E6DACE4CCB03E95 /* ProductPriceController.swift in Sources */,
+				2BA18694363CA5AFB7F0EF6123A67D8B /* ProductTaxTypeController.swift in Sources */,
+				43832C2CA959073A133EC391C65D5F8B /* ProductTitleController.swift in Sources */,
+				5039CC6A4E21E2244850E3DA2EBA2849 /* ScanFinishController.swift in Sources */,
+				BD07CB28306C38B227C4A476C7D283F2 /* ScanStartController.swift in Sources */,
+				B688F66D55DC8571665F82E44985CA6B /* StorageCoordinator.swift in Sources */,
+				D9846DE6AF8FD25A7B00D3D1E96652AC /* StorageSystems-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7453EAFE4EB014B7F27D4231E7E0ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098F17C3F4BE25A8C2CA3D122A80797F /* MTBBarcodeScanner-dummy.m in Sources */,
+				B651528CF7AD623BB4B43D226CDDF280 /* MTBBarcodeScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040846E272AE0C6EF651306D403F8714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CashMachineMenu";
+			target = 54FED2A6E9893414F3F4B3C9E54C289E /* Pods-CashMachineMenu */;
+			targetProxy = 7F1C3072D4140339F6F5B8ACF6F15BEB /* PBXContainerItemProxy */;
+		};
+		7863D317382ADEE8CA972C62A0C06981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTBBarcodeScanner;
+			target = D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */;
+			targetProxy = F87E5BADDE93D2D8A50738D0168222EA /* PBXContainerItemProxy */;
+		};
+		DE9E04010E2CFB0173C6CAC71C5A0C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTBBarcodeScanner;
+			target = D83CD42EA57F97A225D24BDC7BD6B6F6 /* MTBBarcodeScanner */;
+			targetProxy = 43BE77C901F241395EF6636080647D57 /* PBXContainerItemProxy */;
+		};
+		F057A6C6AC811597B92FF841F435CDF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StorageSystems;
+			target = 46831EEC6CF4C4345A0A817F18E1420B /* StorageSystems */;
+			targetProxy = 2CCA0FEA0262F8792562589E39E07FAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049D9F314ADFD8BEA09868F82A1A208D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612AF055ADDD3E66CD6D72C25A0CBE78 /* StorageSystems.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StorageSystems/StorageSystems-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StorageSystems/StorageSystems-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StorageSystems/StorageSystems.modulemap";
+				PRODUCT_MODULE_NAME = StorageSystems;
+				PRODUCT_NAME = StorageSystems;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12B6E0CE7231F5E1B5B24BA9A1AEEBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9D76B8B40ED6D83028074583AA2903 /* Pods-CashMachineMenuTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashMachineMenuTests/Pods-CashMachineMenuTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashMachineMenuTests/Pods-CashMachineMenuTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14E81A5AAA2011369CCF94C2885F1369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E336CB0ED0CFD487681C6CE059F7AF /* Pods-CashMachineMenu.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashMachineMenu/Pods-CashMachineMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashMachineMenu/Pods-CashMachineMenu.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CD512DA3D012EAB136EA20166CFB711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612AF055ADDD3E66CD6D72C25A0CBE78 /* StorageSystems.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StorageSystems/StorageSystems-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StorageSystems/StorageSystems-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StorageSystems/StorageSystems.modulemap";
+				PRODUCT_MODULE_NAME = StorageSystems;
+				PRODUCT_NAME = StorageSystems;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D751F767C09626335174C52334D64837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3101751A3541947730F3E21D079104DA /* MTBBarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = MTBBarcodeScanner;
+				PRODUCT_NAME = MTBBarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7F86F60761313AFA7D558118723961F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25193A43B15EFD068829D2949248EBD7 /* Pods-CashMachineMenuTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashMachineMenuTests/Pods-CashMachineMenuTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashMachineMenuTests/Pods-CashMachineMenuTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E29BB01D9841118E09224587CE4E6DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3101751A3541947730F3E21D079104DA /* MTBBarcodeScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MTBBarcodeScanner/MTBBarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = MTBBarcodeScanner;
+				PRODUCT_NAME = MTBBarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EDB7FF8AE0F783A023980A1A228DB39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29866CF57D5FC29BE61272241669159D /* Pods-CashMachineMenu.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CashMachineMenu/Pods-CashMachineMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CashMachineMenu/Pods-CashMachineMenu.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3309A5CF9EE9892FE9E87CEF9DBF34D3 /* Build configuration list for PBXNativeTarget "Pods-CashMachineMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB7FF8AE0F783A023980A1A228DB39C /* Debug */,
+				14E81A5AAA2011369CCF94C2885F1369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C539EC65ACF6A18D7329C67BA42BBA87 /* Build configuration list for PBXNativeTarget "Pods-CashMachineMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B6E0CE7231F5E1B5B24BA9A1AEEBE4 /* Debug */,
+				D7F86F60761313AFA7D558118723961F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7F87C37134A900125E815278CAB848 /* Build configuration list for PBXNativeTarget "MTBBarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D751F767C09626335174C52334D64837 /* Debug */,
+				E29BB01D9841118E09224587CE4E6DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D1F5C07D3435A281FF30E82C29FAA4 /* Build configuration list for PBXNativeTarget "StorageSystems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD512DA3D012EAB136EA20166CFB711 /* Debug */,
+				049D9F314ADFD8BEA09868F82A1A208D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
